@@ -1,0 +1,16 @@
+C:\Users\ismatullo.mukhamedzh\Desktop\Alif Academy\HW7\HW7\HW7Solution\obj\Debug\net5.0\HW7Solution.csproj.AssemblyReference.cache
+C:\Users\ismatullo.mukhamedzh\Desktop\Alif Academy\HW7\HW7\HW7Solution\obj\Debug\net5.0\HW7Solution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ismatullo.mukhamedzh\Desktop\Alif Academy\HW7\HW7\HW7Solution\obj\Debug\net5.0\HW7Solution.AssemblyInfoInputs.cache
+C:\Users\ismatullo.mukhamedzh\Desktop\Alif Academy\HW7\HW7\HW7Solution\obj\Debug\net5.0\HW7Solution.AssemblyInfo.cs
+C:\Users\ismatullo.mukhamedzh\Desktop\Alif Academy\HW7\HW7\HW7Solution\obj\Debug\net5.0\HW7Solution.csproj.CoreCompileInputs.cache
+C:\Users\ismatullo.mukhamedzh\Desktop\Alif Academy\HW7\HW7\HW7Solution\bin\Debug\net5.0\HW7Solution.exe
+C:\Users\ismatullo.mukhamedzh\Desktop\Alif Academy\HW7\HW7\HW7Solution\bin\Debug\net5.0\HW7Solution.deps.json
+C:\Users\ismatullo.mukhamedzh\Desktop\Alif Academy\HW7\HW7\HW7Solution\bin\Debug\net5.0\HW7Solution.runtimeconfig.json
+C:\Users\ismatullo.mukhamedzh\Desktop\Alif Academy\HW7\HW7\HW7Solution\bin\Debug\net5.0\HW7Solution.runtimeconfig.dev.json
+C:\Users\ismatullo.mukhamedzh\Desktop\Alif Academy\HW7\HW7\HW7Solution\bin\Debug\net5.0\HW7Solution.dll
+C:\Users\ismatullo.mukhamedzh\Desktop\Alif Academy\HW7\HW7\HW7Solution\bin\Debug\net5.0\ref\HW7Solution.dll
+C:\Users\ismatullo.mukhamedzh\Desktop\Alif Academy\HW7\HW7\HW7Solution\bin\Debug\net5.0\HW7Solution.pdb
+C:\Users\ismatullo.mukhamedzh\Desktop\Alif Academy\HW7\HW7\HW7Solution\obj\Debug\net5.0\HW7Solution.dll
+C:\Users\ismatullo.mukhamedzh\Desktop\Alif Academy\HW7\HW7\HW7Solution\obj\Debug\net5.0\ref\HW7Solution.dll
+C:\Users\ismatullo.mukhamedzh\Desktop\Alif Academy\HW7\HW7\HW7Solution\obj\Debug\net5.0\HW7Solution.pdb
+C:\Users\ismatullo.mukhamedzh\Desktop\Alif Academy\HW7\HW7\HW7Solution\obj\Debug\net5.0\HW7Solution.genruntimeconfig.cache
