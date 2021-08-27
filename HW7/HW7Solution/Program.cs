@@ -6,82 +6,82 @@ namespace HW7Solution
     {
         static void Main(string[] args)
         {
-            // Rectangle a = new Rectangle(4 , 5);
+            Rectangle a = new Rectangle(4 , 5);
 
-            // a.getArea();
-            // a.getPerimeter();
+            a.getArea();
+            a.getPerimeter();
 
-
-
+            Book book = new Book();
+            book.title = new Title("Life");
+            book.author = new Author("Undefined creature");
+            book.content = new Content("Chance to be alive in world as a human.");
+            book.Show();
         }
     }
 
-    // class Rectangle
-    // {
-    //     private double side1{ get; set; }
-    //     private double side2{ get; set; }
+    class Rectangle
+    {
+        private double side1{ get; set; }
+        private double side2{ get; set; }
 
-    //     public Rectangle()
-    //     {
+        public Rectangle()
+        {
 
-    //     }
+        }
 
-    //     public Rectangle(double side1 , double side2)
-    //     {
-    //         this.side1 = side1;
-    //         this.side2 = side2;
-    //     }
+        public Rectangle(double side1 , double side2)
+        {
+            this.side1 = side1;
+            this.side2 = side2;
+        }
 
-    //     public double AreaCalculator()
-    //     {
-    //         return side1 * side2;
-    //     }
+        public double AreaCalculator()
+        {
+            return side1 * side2;
+        }
 
-    //     public double PerimeterCalculator()
-    //     {
-    //         return 2 * (side1 + side2);
-    //     }
+        public double PerimeterCalculator()
+        {
+            return 2 * (side1 + side2);
+        }
 
-    //     public void getArea()
-    //     {
-    //         double area = AreaCalculator();
-    //         Console.WriteLine($"The area of your rectangle is {area}");
-    //     }
+        public void getArea()
+        {
+            double area = AreaCalculator();
+            Console.WriteLine($"The area of your rectangle is {area}");
+        }
 
-    //     public void getPerimeter()
-    //     {
-    //         double perimeter = PerimeterCalculator();
-    //         Console.WriteLine($"The perimeter of your rectangle is {perimeter}");
-    //     }
+        public void getPerimeter()
+        {
+            double perimeter = PerimeterCalculator();
+            Console.WriteLine($"The perimeter of your rectangle is {perimeter}");
+        }
 
-    // }
+    }
 
     class Book
     {
-        public string Title;
-        public string Author;
-        public string Content;
-
         public Title title;
         public Author author;
         public Content content;
 
-
-        public void AddTitle(string title)
+        public void Show()
         {
-            Title = title.getTitle();
+            title.Show();
+            author.Show();
+            content.Show();
         }
 
-        public void AddAuthor(string author)
+        public Book()
         {
-            Author = author.getAuthor();
         }
 
-        public void AddContent(string content)
+        public Book(Title title , Author author, Content content)
         {
-            Content = content.getContent();
+            this.author = author;
+            this.title = title;
+            this.content = content;
         }
-
     }
 
     class Title
@@ -93,11 +93,12 @@ namespace HW7Solution
             Console.WriteLine($"The title of the book is {title}");
             Console.ResetColor();
         }
-
-        public string getTitle()
+        
+        public Title(string title)
         {
-            return this.title;
+            this.title = title;
         }
+
     }
 
     class Author
@@ -106,14 +107,15 @@ namespace HW7Solution
         public void Show()
         {
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine($"The title of the book is {author}");
+            Console.WriteLine($"The author of the book is {author}");
             Console.ResetColor();
         }
 
-        public string getAuthor()
+        public Author(string author)
         {
-            return this.author;
+            this.author = author;
         }
+        
     }
 
     class Content
@@ -122,13 +124,13 @@ namespace HW7Solution
         public void Show()
         {   
             Console.ForegroundColor = ConsoleColor.DarkBlue;
-            Console.WriteLine($"The title of the book is {content}");
+            Console.WriteLine($"The content of the book is {content}");
             Console.ResetColor();
         }
 
-        public string getContent()
+        public Content(string content)
         {
-            return this.content;
+            this.content = content;
         }
     }
 }
